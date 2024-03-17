@@ -1,0 +1,28 @@
+{
+  "name": "@seirdotexe/bytearray",
+  "version": "1.0.2",
+  "description": "The ActionScript ByteArray class, written in modern JavaScript.",
+  "engineStrict": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": "^20"
+  },
+  "dependencies": {
+    "iconv-lite": "^0.6.3"
+  },
+  "homepage": "https://github.com/seirdotexe/ByteArray",
+  "repository": "github:seirdotexe/bytearray",
+  "keywords": [
+    "ByteArray",
+    "ActionScript",
+    "Adobe",
+    "Buffer",
+    "Bytes",
+    "Binary"
+  ],
+  "author": "seirdotexe",
+  "license": "MIT"
+}
