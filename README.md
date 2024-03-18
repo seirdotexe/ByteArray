@@ -1,5 +1,7 @@
 # ByteArray
 
+![NPM Version](https://img.shields.io/npm/v/@seirdotexe/bytearray)
+
 The [ActionScript ByteArray class](https://help.adobe.com/en_US/FlashPlatform/reference/actionscript/3/flash/utils/ByteArray.html), written in modern JavaScript.
 
 # Install
