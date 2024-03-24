@@ -1,6 +1,6 @@
 {
   "name": "@seirdotexe/bytearray",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "The ActionScript ByteArray class, written in modern JavaScript.",
   "engineStrict": true,
   "type": "module",
