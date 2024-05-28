@@ -113,7 +113,7 @@ export class ByteArray {
    * @returns {number?} When reading, the value that's read is returned
    */
   #executeBufferCall(name, size, value) {
-    //? A byte has a size of 1 and therefor doesn't have endianness
+    //? A byte has a size of 1 and therefore doesn't have endianness
     const func = (size === 1) ? name : `${name}${this.#endian}`;
 
     if (arguments.length === 3) {
