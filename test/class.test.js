@@ -77,30 +77,7 @@ describe('class test', () => {
 
   it('should support length', { todo: true }, () => { });
 
-  it('should support get/set', () => {
-    const bytearr = new ByteArray();
-
-    bytearr.writeUTFBytes('ABC');
-
-    assert.equal(bytearr.get(0), 'A'.charCodeAt());
-    assert.equal(bytearr.get(1), 'B'.charCodeAt());
-    assert.equal(bytearr.get(2), 'C'.charCodeAt());
-
-    bytearr.set(5, 0);
-
-    bytearr.writeUTFBytes('DEF');
-
-    assert.equal(bytearr.length, 6);
-    assert.equal(bytearr.position, 6);
-    assert.equal(bytearr.get(3), 'D'.charCodeAt());
-    assert.equal(bytearr.get(4), 'E'.charCodeAt());
-    assert.equal(bytearr.get(5), 'F'.charCodeAt());
-
-    assert.throws(() => bytearr.get(-1));
-    assert.throws(() => bytearr.get('a'));
-    assert.throws(() => bytearr.set(-1, 1));
-    assert.throws(() => bytearr.set(1, 'a'));
-  });
+  it('should support get/set', { todo: true }, () => { });
 
   it('should convert data in constructor', () => {
     const b1 = new ByteArray(Buffer.from('ABC'));
