@@ -1,7 +1,6 @@
-import ByteArray, { Enums } from '../index.js';
-
 import assert from 'node:assert/strict';
 import { describe, it } from 'node:test';
+import ByteArray, { Enums } from '../index.js';
 
 describe('compression test', () => {
   it('should support zlib', async () => {

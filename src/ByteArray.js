@@ -1,10 +1,9 @@
-import Enums from './Enums.js';
-import Utils from './Utils.js';
-
 import iconv from 'iconv-lite';
 import assert from 'node:assert/strict';
 import { promisify } from 'node:util';
 import zlib from 'node:zlib';
+import Enums from './Enums.js';
+import Utils from './Utils.js';
 
 const deflate = promisify(zlib.deflate);
 const inflate = promisify(zlib.inflate);

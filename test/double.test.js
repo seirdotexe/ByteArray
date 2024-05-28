@@ -1,7 +1,6 @@
-import ByteArray from '../index.js';
-
 import assert from 'node:assert/strict';
 import { describe, it } from 'node:test';
+import ByteArray from '../index.js';
 
 describe('double test', () => {
   it('should support doubles with no decimal', () => {

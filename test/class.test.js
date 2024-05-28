@@ -1,7 +1,6 @@
-import ByteArray, { Enums, Utils } from '../index.js';
-
 import assert from 'node:assert/strict';
 import { describe, it } from 'node:test';
+import ByteArray, { Enums, Utils } from '../index.js';
 
 describe('class test', () => {
   it('should construct the class', () => {

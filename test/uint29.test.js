@@ -1,7 +1,6 @@
-import ByteArray from '../index.js';
-
 import assert from 'node:assert/strict';
 import { describe, it } from 'node:test';
+import ByteArray from '../index.js';
 
 const Values = {
   Size1: [1, 3, 7, 15, 31, 63, 64, 65, 73, 119, 127],
