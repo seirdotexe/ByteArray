@@ -19,7 +19,6 @@ const brotliCompress = promisify(zlib.brotliCompress);
 const brotliDecompress = promisify(zlib.brotliDecompress);
 
 /**
- * @exports
  * @class
  * @module ByteArray
  */
@@ -44,7 +43,7 @@ export class ByteArray {
   #endian;
 
   /**
-   * @constructor
+   * @description Creates a new ByteArray
    * @param {Buffer|ByteArray|number|any[]|string|ArrayBufferView?} buffer - An optional source of data
    */
   constructor(buffer) {

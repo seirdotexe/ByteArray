@@ -3,10 +3,8 @@
  */
 
 /**
- * @exports
- * @default
  * @class
- * @module Utils
+ * @module ByteArray/Utils
  */
 export default class Utils {
   /**

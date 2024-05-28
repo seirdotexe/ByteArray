@@ -13,8 +13,7 @@
  * @property {CompressionAlgorithm} CompressionAlgorithm - Available compression algorithms
  * @property {Endian} Endian - Available endianness
  *
- * @exports
- * @default
+ * @module ByteArray/Enums
  */
 export default {
   CompressionAlgorithm: ({ ZLIB: 'zlib', DEFLATE: 'deflate', GZIP: 'gzip', BROTLI: 'brotli' }),
