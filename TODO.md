@@ -1,6 +1,6 @@
 # Roadmap
 
 - Set() is broken
-- Overwriting test
-- Bytes test
+- .length overwrite needs testing
+- Finish all of the tests
 - Switch to DataView with resizable ArrayBuffer
